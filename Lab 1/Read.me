@@ -1,0 +1,73 @@
+# 🫀 AI Healthcare Lab 1 — Heart Failure Data Analysis & Preprocessing
+
+## 📌 Overview
+
+This project performs exploratory data analysis (EDA), data cleaning, missing-value handling, feature engineering, and numerical feature scaling on a clinical heart-failure dataset.
+
+The objective is to prepare healthcare data for further machine-learning applications by identifying data-quality issues, understanding feature distributions, creating meaningful derived features, and transforming numerical variables into a suitable scale.
+
+---
+
+## 🎯 Objectives
+
+The main objectives of this laboratory are:
+
+- Load and inspect the heart-failure dataset.
+- Understand the structure and characteristics of the data.
+- Identify missing values.
+- Handle missing numerical and categorical values.
+- Perform exploratory data analysis.
+- Visualize feature distributions and potential outliers.
+- Create new features through feature engineering.
+- Develop a patient risk score.
+- Normalize numerical features using Min-Max scaling.
+- Compare the dataset before and after preprocessing.
+
+---
+
+## 📊 Dataset
+
+The project uses a clinical heart-failure dataset containing **299 patient records and 13 variables**.
+
+### Features
+
+| Feature | Description |
+|---|---|
+| `age` | Age of the patient |
+| `anaemia` | Whether the patient has anaemia |
+| `creatinine_phosphokinase` | Level of creatinine phosphokinase |
+| `diabetes` | Whether the patient has diabetes |
+| `ejection_fraction` | Percentage of blood leaving the heart during contraction |
+| `high_blood_pressure` | Whether the patient has high blood pressure |
+| `platelets` | Platelet count |
+| `serum_creatinine` | Serum creatinine level |
+| `serum_sodium` | Serum sodium level |
+| `sex` | Patient sex |
+| `smoking` | Whether the patient smokes |
+| `time` | Follow-up period |
+| `DEATH_EVENT` | Target variable indicating a death event |
+
+---
+
+## 🔄 Project Workflow
+
+```text
+Dataset
+   ↓
+Data Loading
+   ↓
+Data Inspection
+   ↓
+Missing Value Detection
+   ↓
+Missing Value Imputation
+   ↓
+Exploratory Data Analysis
+   ↓
+Feature Engineering
+   ↓
+Risk Score Creation
+   ↓
+Min-Max Scaling
+   ↓
+Preprocessed Dataset
